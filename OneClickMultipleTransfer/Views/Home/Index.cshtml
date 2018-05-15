@@ -1,0 +1,30 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron" style="background-color:deepskyblue">
+   <h1>One Click Multiple Transfer</h1>
+    <p>A system provides an option to transfer money to multiple accounts at once. User can choose different banks payees and sent money with single click</p>
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        
+    </div>
+    <div class="col-md-4">
+@using (Html.BeginForm("AccountBalance", "Account", FormMethod.Get))
+{
+       
+
+        <form>
+            <div class="form-group">
+                <button class="btn btn-primary form-control">Account Balance</button>
+            </div>
+
+        </form>
+}
+    </div>
+    <div class="col-md-4">
+        
+    </div>
+</div>
